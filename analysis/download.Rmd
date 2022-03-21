@@ -1,0 +1,19 @@
+---
+title: "download"
+author: "Opamelas83"
+date: "2022-03-21"
+output: workflowr::wflow_html
+editor_options:
+  chunk_output_type: console
+---
+
+## Download data from Cassavabase
+
+```{r}
+#Example
+data(iris)
+head(iris)
+colMeans(iris[,-5])
+
+```
+
